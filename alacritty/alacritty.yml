@@ -14,16 +14,16 @@ window:
 
 font:
   normal:
-    family: Source Code Pro
+    family: Source Code Pro for Powerline
 
   bold:
-    family: Source Code Pro
+    family: Source Code Pro for Powerline
 
   italic:
-    family: Source Code Pro
+    family: Source Code Pro for Powerline
 
   bold_italic:
-    family: Source Code Pro
+    family: Source Code Pro for Powerline
 
   size: 10
 
