@@ -6,6 +6,7 @@ Edit of this Repository : https://github.com/VaughnValle/blue-sky/tree/master
 
 
 ## Packages :
+- sudo pacman -S papirus-icon-theme
 - https://github.com/pipeseroni/pipes.sh
 - sudo pacman -S cmatrix
 
