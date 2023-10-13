@@ -1,7 +1,7 @@
 configuration {
     font:                           "Iosevka Nerd Font 10";
     show-icons:                     true;
-	icon-theme: 					"Papirus";
+	icon-theme: 					"Zafiro-Nord-Black-Blue";
     display-drun: 					"";
     drun-display-format:            " {name}";
     threads:                        0;
