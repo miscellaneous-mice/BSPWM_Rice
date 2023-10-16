@@ -1,5 +1,7 @@
 # BSPWM_Rice
 
+**Credit** : https://github.com/VaughnValle/blue-sky/
+
 **All the necessary stuff can be found [here](https://github.com/VaughnValle/blue-sky/blob/master/README.md) and [here](https://github.com/miscellaneous-mice/Linux_Rice)**
 
 
