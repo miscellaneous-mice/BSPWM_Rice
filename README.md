@@ -30,7 +30,7 @@ $ chmod +x ~/.config/polybar/scripts/powermenu_alt
 - You have to change with current repo
   - ```~/.config/alacritty/alacritty.yml```
   - ```~/.config/rofi/*```
-  - 
+  
 ## Theme
 - [Theme](https://www.xfce-look.org/p/1267246/)
 - [Icons](https://www.xfce-look.org/p/1937741)
