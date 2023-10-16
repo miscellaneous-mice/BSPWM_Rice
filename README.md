@@ -14,7 +14,7 @@ $ chmod +x ~/.config/bspwm/bspwmrc
 ```
 - Replace the polybar config files and install necessary fonts.
 ```
-$ mv ~/.config/polybar
+$ mv ~/.config/polybar ~/Backup/
 $ cp -r ~/BSPWM_Rice/.config/polybar ~/.config/
 $ cp -r ~/.config/polybar/fonts/* ~/.fonts/
 ```
