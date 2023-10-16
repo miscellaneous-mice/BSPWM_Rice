@@ -3,7 +3,8 @@
 **All the necessary stuff can be found [here](https://github.com/VaughnValle/blue-sky/blob/master/README.md) and [here](https://github.com/miscellaneous-mice/Linux_Rice)**
 
 
-![Rice_1](https://github.com/miscellaneous-mice/BSPWM_Rice/assets/79500624/63345835-d6e7-4000-a39e-003ad16191ea)
+![4](https://github.com/miscellaneous-mice/BSPWM_Rice/assets/79500624/acff8caf-239f-4642-bb71-18ddc49fe4b3)
+
 
 ## Polybar configuration
 - First replace the ```~/.config/bspwm/bspwmrc```
