@@ -1,4 +1,4 @@
-# BSPWM_Rice
+# Rice BSPWM
 
 **Credit** : https://github.com/VaughnValle/blue-sky/
 
