@@ -34,4 +34,5 @@ $ chmod +x ~/.config/polybar/scripts/powermenu_alt
 ## Theme
 - [Theme](https://www.xfce-look.org/p/1267246/)
 - [Icons](https://www.xfce-look.org/p/1937741)
+- [Fonts](https://damieng.com/blog/2008/05/26/envy-code-r-preview-7-coding-font-released/)
 - [firefox theme](https://addons.mozilla.org/en-US/firefox/addon/arctic-nord-theme/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)
