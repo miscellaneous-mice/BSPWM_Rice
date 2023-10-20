@@ -38,7 +38,7 @@ $ chmod +x ~/.config/polybar/scripts/powermenu_alt
 - [firefox theme](https://addons.mozilla.org/en-US/firefox/addon/arctic-nord-theme/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)
 
 ## Catppuccin
-- [Polybar]()
+- [Polybar](https://github.com/miscellaneous-mice/polybar)
 - [Alacritty](https://github.com/catppuccin/alacritty)
 - [Firefox](https://addons.mozilla.org/en-GB/firefox/addon/catppuccin/)
 - [Rofi](https://github.com/catppuccin/rofi/tree/main)
