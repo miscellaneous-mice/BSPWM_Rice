@@ -36,3 +36,13 @@ $ chmod +x ~/.config/polybar/scripts/powermenu_alt
 - [Icons](https://www.xfce-look.org/p/1937741)
 - [Fonts](https://damieng.com/blog/2008/05/26/envy-code-r-preview-7-coding-font-released/)
 - [firefox theme](https://addons.mozilla.org/en-US/firefox/addon/arctic-nord-theme/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)
+
+## Catppuccin
+- [Polybar]()
+- [Alacritty](https://github.com/catppuccin/alacritty)
+- [Firefox](https://addons.mozilla.org/en-GB/firefox/addon/catppuccin/)
+- [Rofi](https://github.com/catppuccin/rofi/tree/main)
+- [Wallpaper](https://github.com/Gingeh/wallpapers/tree/main)
+- [Theme](https://github.com/catppuccin/gtk)
+- [Icon](https://github.com/catppuccin/papirus-folders)
+- [Others](https://github.com/catppuccin/catppuccin)
