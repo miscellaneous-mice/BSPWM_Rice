@@ -34,6 +34,20 @@ $ chmod +x ~/.config/polybar/scripts/powermenu_alt
 ```
 - [Terminal configurations(zshrc, neovim, alacritty)](https://github.com/miscellaneous-mice/Terminal_Rice)
 
+## Packages
+- feh (pacman)
+- alsa-utils (pacman)
+- alacritty (pacman)
+- rofi (pacman)
+- picom (pacman)
+- polybar (pacman)
+- scrot (pacman)
+- rofi-calc (pacman)
+- shell-color-scripts (yay)
+- pipes ([github](https://github.com/pipeseroni/pipes.sh))
+- tty-clock ([github](https://github.com/xorg62/tty-clock))
+- unimatrix ([github](https://github.com/will8211/unimatrix))
+
 ## Common
 - Fonts
   - [otf-font-awesome](https://archlinux.org/packages/extra/any/otf-font-awesome/)
