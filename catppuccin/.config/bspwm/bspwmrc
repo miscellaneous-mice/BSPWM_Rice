@@ -25,7 +25,7 @@ bspc config focus_follows_pointer true
 xsetroot -cursor_name left_ptr &
 
 #feh --bg-fill ~/blue-sky/wallpapers/blue3.png
-feh --bg-fill ~/BSPWM_Rice/catppuccin/wallpapers/tetris.png
+feh --bg-fill ~/BSPWM_Rice/catppuccin/wallpapers/cat-waves.png
 
 #Autostart applications
 sxhkd &
