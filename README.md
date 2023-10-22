@@ -67,8 +67,7 @@ $ chmod +x ~/.config/polybar/scripts/powermenu_alt
 - [Rofi](https://github.com/catppuccin/rofi/tree/main)
 - [Wallpaper](https://github.com/Gingeh/wallpapers/tree/main)
 - [Theme](https://github.com/catppuccin/gtk)
-- Icons
-  - [papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme#third-party-packages)
+- [Icons](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme#third-party-packages)
 - [Others](https://github.com/catppuccin/catppuccin)
 
 ## Nord
@@ -78,8 +77,7 @@ $ chmod +x ~/.config/polybar/scripts/powermenu_alt
 - [Rofi](https://github.com/catppuccin/rofi/tree/main)
 - [Wallpaper](https://github.com/theglitchh/Nord-Wallpapers)
 - [Theme](https://www.xfce-look.org/p/1267246/)
-- Icons
-  - [Zafiro Nord Dark Blue](https://www.xfce-look.org/p/1937741)
+- [Icons](https://www.xfce-look.org/p/1937741)
 - [Font](https://damieng.com/blog/2008/05/26/envy-code-r-preview-7-coding-font-released/)  
 - [Others](https://www.nordtheme.com/docs/colors-and-palettes)
 
