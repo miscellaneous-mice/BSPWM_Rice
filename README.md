@@ -1,6 +1,6 @@
 # Rice BSPWM
 
-**{theme} -> catppuccin/nord**
+*{theme} -> catppuccin/nord*
 
 **All the necessary stuff can be found [here](https://github.com/miscellaneous-mice/Linux_Rice)**
 
