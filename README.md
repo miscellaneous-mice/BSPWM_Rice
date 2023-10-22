@@ -1,41 +1,50 @@
 # Rice BSPWM
 
-**Credit** : https://github.com/VaughnValle/blue-sky/
+**{theme} -> catppuccin/nord**
 
-**All the necessary stuff can be found [here](https://github.com/VaughnValle/blue-sky/blob/master/README.md) and [here](https://github.com/miscellaneous-mice/Linux_Rice)**
+**All the necessary stuff can be found [here](https://github.com/miscellaneous-mice/Linux_Rice)**
 
 
 ![4](https://github.com/miscellaneous-mice/BSPWM_Rice/assets/79500624/acff8caf-239f-4642-bb71-18ddc49fe4b3)
 
-
-## Polybar configuration
-- First replace the ```~/.config/bspwm/bspwmrc```
+## Configurations
+- Window manager configs
 ```
-$ mv ~/.config/bspwm/bspwmrc ~/Backup
-$ cp ~/BSPWM_Rice/.config/bspwm/bspwmrc ~/.config/bspwm/
+$ cp ~/.config/bspwm/bspwmrc ~/Backup/
+$ cp ~/BSPWM_Rice/{theme}/.config/bspwm/bspwmrc ~/.config/bspwm/
 $ chmod +x ~/.config/bspwm/bspwmrc
 ```
-- Replace the polybar config files and install necessary fonts.
+- Alacritty themes
 ```
-$ mv ~/.config/polybar/* ~/Backup/
-$ cp -r ~/BSPWM_Rice/.config/polybar/* ~/.config/polybar/
+$ mv ~/.config/alacritty ~/Backup/
+$ cp -r ~/BSPWM_Rice/{theme}/.config/alacritty ~/.config/
+```
+- Rofi configuration
+```
+$ mv ~/.config/rofi ~/Backup/
+$ cp -r /BSPWM_Rice/{theme}/.config/rofi ~/.config/
+```
+- Polybar configuration
+```
+$ mv ~/.config/polybar ~/Backup/
+$ cp -r ~/BSPWM_Rice/{theme}/.config/polybar ~/.config/
 $ cp -r ~/.config/polybar/fonts/* ~/.fonts/
-```
-- Next make all the files executable
-```
 $ chmod +x ~/.config/polybar/scripts/launcher
 $ chmod +x ~/.config/polybar/scripts/powermenu_alt
 ```
-## Changes
-- You have to change with current repo
-  - ```~/.config/alacritty/alacritty.yml```
-  - ```~/.config/rofi/*```
-  
-## Theme
-- [Theme](https://www.xfce-look.org/p/1267246/)
-- [Icons](https://www.xfce-look.org/p/1937741)
-- [Fonts](https://damieng.com/blog/2008/05/26/envy-code-r-preview-7-coding-font-released/)
-- [firefox theme](https://addons.mozilla.org/en-US/firefox/addon/arctic-nord-theme/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)
+- [Terminal configurations(zshrc, neovim, alacritty)](https://github.com/miscellaneous-mice/Terminal_Rice)
+
+## Common
+- Fonts
+  - [otf-font-awesome](https://archlinux.org/packages/extra/any/otf-font-awesome/)
+  - [ttf-ubuntu-font-family](https://archlinux.org/packages/extra/any/ttf-ubuntu-font-family/)
+  - [ttf-fira-mono](https://archlinux.org/packages/extra/any/ttf-fira-mono/)
+  - [JetBrainsMono Nerd Font](https://www.nerdfonts.com/font-downloads)
+  - [Iosevka Nerd Font](https://www.nerdfonts.com/font-downloads)
+  - [Mononoki nerd fonts](https://www.nerdfonts.com/font-downloads)
+  - [SauceCodePro nerd fonts](https://www.nerdfonts.com/font-downloads)
+- Icons
+   - [oranchelo](https://github.com/OrancheloTeam/oranchelo-icon-theme)
 
 ## Catppuccin
 - [Polybar](https://github.com/miscellaneous-mice/polybar)
@@ -46,7 +55,6 @@ $ chmod +x ~/.config/polybar/scripts/powermenu_alt
 - [Theme](https://github.com/catppuccin/gtk)
 - Icons
   - [papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme#third-party-packages)
-  - [oranchelo](https://github.com/OrancheloTeam/oranchelo-icon-theme)
 - [Others](https://github.com/catppuccin/catppuccin)
 
 ## Nord
@@ -58,5 +66,8 @@ $ chmod +x ~/.config/polybar/scripts/powermenu_alt
 - [Theme](https://www.xfce-look.org/p/1267246/)
 - Icons
   - [Zafiro Nord Dark Blue](https://www.xfce-look.org/p/1937741)
-  - [oranchelo](https://github.com/OrancheloTeam/oranchelo-icon-theme)
+- [Font](https://damieng.com/blog/2008/05/26/envy-code-r-preview-7-coding-font-released/)  
 - [Others](https://www.nordtheme.com/docs/colors-and-palettes)
+
+Credits :
+- https://github.com/VaughnValle/blue-sky
