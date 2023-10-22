@@ -4,8 +4,7 @@
 
 **All the necessary stuff can be found [here](https://github.com/miscellaneous-mice/Linux_Rice)**
 
-
-![4](https://github.com/miscellaneous-mice/BSPWM_Rice/assets/79500624/acff8caf-239f-4642-bb71-18ddc49fe4b3)
+![BSPWM](https://github.com/miscellaneous-mice/BSPWM_Rice/assets/79500624/bf866c06-df98-4f9a-bcc8-3b6801728dd9)
 
 ## Configurations
 - Window manager configs
