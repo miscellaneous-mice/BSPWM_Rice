@@ -43,7 +43,23 @@
   $ sudo systemctl enable lightdm
   $ sudo cp ~/BSPWM_Rice/{theme}/wallpaper/lightdm/* /usr/share/backgrounds/
   ```
-  - Change the config files  ```/etc/lightdm/lightdm.conf``` and ```/etc/lightdm/lightdm-gtk-greeter.conf``` as given in the ```~/BSPWM_Rice/{theme}/etc/lightdm/```
+  - Uncomment these lines in ```sudo nvim /etc/lightdm/lightdm.conf```
+  ```
+  [LightDM]
+  logind-check-graphical=true
+
+  [Seat:*]
+  greeter-session=lightdm-gtk-greeter
+  display-setup-script=xrandr --output Virtual1 --mode 1920x1080
+  ``` 
+  - Uncomment these lines in ```sudo nvim /etc/lightdm/lightdm-gtk-greeter.conf```
+  ```
+  [greeter]
+  background=/usr/share/backgrounds/{shaded_landscape/2}.png
+  theme-name={Catppuccin-Mocha-Standard-Lavender-Dark/Nordic-darker}
+  icon-theme-name={Papirus/Zafiro-Nord-Black-Blue}
+  font-name=JetBrainsMono Nerd Font
+  ```
   - Comment everything in ```~/.zprofile```
   ```
   # Autostart X after TTY login.
