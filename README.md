@@ -8,41 +8,49 @@
 
 ## Configurations
 - Window manager configs
-```
-$ cp ~/.config/bspwm/bspwmrc ~/Backup/
-$ cp ~/BSPWM_Rice/{theme}/.config/bspwm/bspwmrc ~/.config/bspwm/
-$ chmod +x ~/.config/bspwm/bspwmrc
-```
+  ```
+  $ cp ~/.config/bspwm/bspwmrc ~/Backup/
+  $ cp ~/BSPWM_Rice/{theme}/.config/bspwm/bspwmrc ~/.config/bspwm/
+  $ chmod +x ~/.config/bspwm/bspwmrc
+  ```
 - Alacritty themes
-```
-$ mv ~/.config/alacritty ~/Backup/
-$ cp -r ~/BSPWM_Rice/{theme}/.config/alacritty ~/.config/
-```
+  ```
+  $ mv ~/.config/alacritty ~/Backup/
+  $ cp -r ~/BSPWM_Rice/{theme}/.config/alacritty ~/.config/
+  ```
 - Rofi configuration
-```
-$ mv ~/.config/rofi ~/Backup/
-$ cp -r /BSPWM_Rice/{theme}/.config/rofi ~/.config/
-```
+  ```
+  $ mv ~/.config/rofi ~/Backup/
+  $ cp -r /BSPWM_Rice/{theme}/.config/rofi ~/.config/
+  ```
 - Polybar configuration
-```
-$ mv ~/.config/polybar ~/Backup/
-$ cp -r ~/BSPWM_Rice/{theme}/.config/polybar ~/.config/
-$ cp -r ~/.config/polybar/fonts/* ~/.fonts/
-$ chmod +x ~/.config/polybar/scripts/launcher
-$ chmod +x ~/.config/polybar/scripts/powermenu_alt
-$ chmod +x ~/.config/polybar/launch.sh
-```
+  ```
+  $ mv ~/.config/polybar ~/Backup/
+  $ cp -r ~/BSPWM_Rice/{theme}/.config/polybar ~/.config/
+  $ cp -r ~/.config/polybar/fonts/* ~/.fonts/
+  $ chmod +x ~/.config/polybar/scripts/launcher
+  $ chmod +x ~/.config/polybar/scripts/powermenu_alt
+  $ chmod +x ~/.config/polybar/launch.sh
+  ```
 - [Terminal configurations(zshrc, neovim, alacritty)](https://github.com/miscellaneous-mice/Terminal_Rice)
-```
-Extra step
-cp ~/BSPWM_Rice/{theme}/.zprofile ~/
-```
+  ```
+  Extra step
+  $ cp ~/BSPWM_Rice/{theme}/.zprofile ~/
+  ```
 - Configuring lightdm
-```
-$ sudo pacman -S lightdm lightdm-gtk-greeter
-$ sudo cp ~/BSPWM_Rice/{theme}/wallpaper/lightdm/* /usr/share/backgrounds
-```
-Change the config files  ```/etc/lightdm/lightdm.conf``` and ```/etc/lightdm/lightdm-gtk-greeter.conf``` as given in the ```~/BSPWM_Rice/{theme}/etc/lightdm/```
+  ```
+  $ sudo pacman -S lightdm lightdm-gtk-greeter
+  $ sudo systemctl enable lightdm
+  $ sudo cp ~/BSPWM_Rice/{theme}/wallpaper/lightdm/* /usr/share/backgrounds/
+  ```
+  - Change the config files  ```/etc/lightdm/lightdm.conf``` and ```/etc/lightdm/lightdm-gtk-greeter.conf``` as given in the ```~/BSPWM_Rice/{theme}/etc/lightdm/```
+  - Comment everything in ```~/.zprofile```
+  ```
+  # Autostart X after TTY login.
+  # if [[ -z "$DISPLAY" ]] && [[ $(tty) = /dev/tty1 ]]; then
+  #   exec startx
+  # fi
+  ```
 ## Packages
 - feh (pacman)
 - alsa-utils (pacman)
