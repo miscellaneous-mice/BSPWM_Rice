@@ -4,6 +4,13 @@
 
 **All the necessary stuff can be found [here](https://github.com/miscellaneous-mice/Linux_Rice)**
 
+**Login screen**
+
+![Login](https://github.com/miscellaneous-mice/BSPWM_Rice/assets/79500624/910b4f07-b22d-4776-9642-7f3cbf67b2a4)
+
+
+**Main Homescreen**
+
 ![BSPWM](https://github.com/miscellaneous-mice/BSPWM_Rice/assets/79500624/bf866c06-df98-4f9a-bcc8-3b6801728dd9)
 
 ## Configurations
