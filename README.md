@@ -67,6 +67,10 @@
   #   exec startx
   # fi
   ```
+  - To test use
+  ```
+  $ lightdm --test-mode --debug
+  ```
 ## Packages
 - feh (pacman)
 - alsa-utils (pacman)
