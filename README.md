@@ -11,7 +11,7 @@
 
 **Main Homescreen**
 
-![BSPWM](https://github.com/miscellaneous-mice/BSPWM_Rice/assets/79500624/bf866c06-df98-4f9a-bcc8-3b6801728dd9)
+![BSPWM](https://github.com/miscellaneous-mice/BSPWM_Rice/assets/79500624/197ce8a0-72b7-4abd-8949-b199f5be6f25)
 
 ## Configurations
 - Window manager configs
