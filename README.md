@@ -127,6 +127,8 @@ $ chmod +x ~/.local/bin/updates.sh
   - [SauceCodePro nerd fonts](https://www.nerdfonts.com/font-downloads)
 - Icons
    - [oranchelo](https://github.com/OrancheloTeam/oranchelo-icon-theme)
+- Grub
+  - [dedsec-grub2-theme](https://github.com/VandalByte/dedsec-grub2-theme)
 
 ## Catppuccin
 - [Polybar](https://github.com/miscellaneous-mice/polybar)
