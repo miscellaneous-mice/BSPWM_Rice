@@ -102,6 +102,11 @@ $ cp -r ~/BSPWM_Rice/{theme}/.config/dunst ~/.config/
 $ cp ~/BSPWM_Rice/{theme}/.local/bin/updates.sh ~/.local/bin/
 $ chmod +x ~/.local/bin/updates.sh
 ```
+- Configuring grub
+```
+$ git clone --depth 1 https://gitlab.com/VandalByte/dedsec-grub-theme.git && cd dedsec-grub-theme
+$ sudo python3 dedsec-theme.py --install
+```
 ## Packages
 - feh (pacman)
 - alsa-utils (pacman)
