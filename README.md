@@ -97,7 +97,7 @@
 - Configuring grub
   - Specify your resolution ```sudo nvim /etc/default/grub```
   ```
-  GRUB_GFXMODE=1920x1080 
+  GRUB_GFXMODE="1920x1080"
   ```
   - then run as root,
   ```
