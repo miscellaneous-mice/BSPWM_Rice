@@ -4,14 +4,9 @@
 
 **All the necessary stuff can be found [here](https://github.com/miscellaneous-mice/Linux_Rice)**
 
-**Login screen**
+**CATPPUCCIN** -> https://youtu.be/BuO17pgjpic?si=AP3Yct9HJ5oeNWg2
 
-![Login](https://github.com/miscellaneous-mice/BSPWM_Rice/assets/79500624/910b4f07-b22d-4776-9642-7f3cbf67b2a4)
-
-
-**Main Homescreen**
-
-![BSPWM](https://github.com/miscellaneous-mice/BSPWM_Rice/assets/79500624/197ce8a0-72b7-4abd-8949-b199f5be6f25)
+**NORD** -> https://youtu.be/rQ56Q-LNJj4?si=ssOHNlFLWUTvDDPA
 
 ## Configurations
 - Window manager configs
