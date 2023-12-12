@@ -31,5 +31,5 @@ sxhkd &
 picom --config ~/.config/picom/picom.conf &
 #dunst &
 ~/.config/polybar/launch.sh
-polybar example &
+#polybar example &
 
