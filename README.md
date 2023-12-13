@@ -113,6 +113,7 @@
   $ mv ~/BSPWM_Rice/{theme}/.config/picom/picom_animations.conf ~/.config/picom/picom.conf
   $ sudo reboot
   ```
+  - *Note* : You might have to disable borders in your window manager config file, as it doesn't work properly with this picom configuration
   
 ## Packages
 - feh (pacman)
